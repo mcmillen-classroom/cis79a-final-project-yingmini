@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Introduction To Violin</string>
+    <string name="app_in_button">Press To Learn</string>
+    <string name="violinA_button">Quiz Time!</string>
+    <string name="violinB_button">Peg</string>
+    <string name="violinC_button">Strings</string>
+    <string name="violinD_button">Bow Parts</string>
+    <string name="violinE_button">Bridge</string>
+    <string name="violinF_button">TailPiece</string>
+    <string name="violinG_button">Chinrest</string>
+    <string name="question_text">Silly</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+
+    <string name="pre_button">Previous</string>
+    <string name="next_button">Next</string>
+
+    <string name="cheat_button">Cheat!</string>
+    <string name="cheat_warning">Are you sure you want to cheat? It\'s not fair!</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="cheat_shame">DON\'T CHEAT NEXT TIME!</string>
+
+    <string name="question_1">Does a double bass exist in the orchestra?</string>
+    <string name="question_2">Are there many sizes from the your ages to your height for double bass?</string>
+    <string name="question_3">Does the height of a double bass is about 6 meter from scroll to endpoint?</string>
+    <string name="question_4">There can be many names in double bass</string>
+    <string name="question_5">There are not many skills that relate to the other string instruments</string>
+    <string name="question_6">What is the other name for double bass?</string>
+    <string name="question_7">In the history of the string classical family, how many strings does the double bass had?</string>
+
+    <string name="question_1_hint">There are cello, viola, violin</string>
+    <string name="question_2_hint">You would be growing old</string>
+    <string name="question_3_hint">The unit for its height</string>
+    <string name="question_4_hint">Bass?, Contra-bass?</string>
+    <string name="question_5_hint">How do you play those things?</string>
+    <string name="question_6_hint">The hint appeared in Question 4\'s hint, 2nd word</string>
+    <string name="question_7_hint">It\'s the same as modern double bass</string>
+    <string name="check_button">Check</string>
+    <string name="reset">Reset</string>
+
+    <string-array name="question_6_answers">
+        <item>Contra-bass</item>
+        <item>Contra bass</item>
+        <item>Contrabass</item>
+    </string-array>
+
+    <string-array name="question_7_answers">
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> or 5 strings</item>
+    </string-array>
+
+    <string name="peg_text_view">There are four pegs that has its own grip or knob on it to
+    help us adjust the tension of the strings when we play the string
+     (Peg paste is a paste to put on the stick to smoothly stop at that position).</string>
+
+    <string name="strings_text_view">A string is to make the sound from using the bow
+    or pluck the string. There is also four stringss with four pegs. You can replace
+     different position. The thinner the string is, the higher note it have
+    (Peg paste can make the sound flat of sharp).</string>
+
+    <string name="bow_parts_text_view">The Hair part of the bow is a horse\'s hair on their tail
+     so you can play the bow on the string. But you need a rosin to brush it on the bow or
+     you can\'t produce the real sound of violin. The Screw part of bow is to loosen
+     or tighten up the bow.</string>
+
+    <string name="bridge_text_view">The bridge on the violin is like any constructed bridge
+     that carries the vibration of the string to the violin\'s body and come out from the two
+     F-Holes on both side of the bridge.</string>
+
+    <string name="tail_piece_text_view">A tail piece is on many stringed musical
+    instruments that put on the end of the strings with tuning mechanism. The
+    string cannot be too tight or the tailpiece cannot withstand the string\’s tension.</string>
+    
+    <string name="chinrest_text_view">A chinrest is a piece of material around the
+    tailpiece that let players’ chin rest on the violin. There are many type of
+    chinrests so it’s not a surprise that it is shaped differently on different violins.</string>
+</resources>
