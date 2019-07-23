@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Violin_1Activity"></activity>
+        <activity android:name=".Violin_6Activity"></activity>
+        <activity android:name=".Violin_5Activity" />
+        <activity android:name=".Violin_4Activity" />
+        <activity android:name=".Violin_3Activity" />
+        <activity android:name=".Violin_2Activity" />
+        <activity android:name=".Violin_1Activity" />
         <activity android:name=".ViolinActivity" />
         <activity android:name=".DoubleBassActivity" />
         <activity android:name=".MainActivity">

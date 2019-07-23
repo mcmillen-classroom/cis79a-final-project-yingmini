@@ -2,6 +2,7 @@ package com.yinghsuenlin.introtoviolin;
 
 import android.content.Context;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -39,12 +40,16 @@ public class DoubleBassActivity extends AppCompatActivity implements View.OnClic
     private int mIndex;
     private int mScore = 0;
 
-    private Button mResetButton;
+    MediaPlayer violins;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doublebass);
+
+        violins = MediaPlayer.create(DoubleBassActivity.this, R.raw.violin_2);
+        violins.start();
+
         mTrueButton = (Button) findViewById(R.id.true_button);
         mFalseButton = (Button) findViewById(R.id.false_button);
         mpreButton = (ImageButton) findViewById(R.id.pre_button);
@@ -234,5 +239,13 @@ public class DoubleBassActivity extends AppCompatActivity implements View.OnClic
     {
         Intent ret = new Intent(ctx, DoubleBassActivity.class);
         return ret;
+    }
+
+    @Override
+    protected void onPause()
+    {
+        super.onPause();
+        violins.stop();
+        violins.release();
     }
 }
