@@ -13,6 +13,7 @@
         android:src="@drawable/violin1"
         android:alpha="0.4"
         android:scaleType="centerCrop"
+        android:layout_gravity="center"
         />
 
     <LinearLayout

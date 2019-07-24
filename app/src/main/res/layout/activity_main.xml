@@ -8,7 +8,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/homepage"/>
+        android:src="@drawable/homepage"
+        android:layout_gravity="center"/>
 
     <Button
         android:id="@+id/app_in_button"

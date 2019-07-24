@@ -35,7 +35,7 @@ public class ViolinActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_violin);
 
         violins = MediaPlayer.create(ViolinActivity.this, R.raw.violin_1);
-        //violins.start();
+        violins.start();
 
         mViolinAButton = (Button) findViewById(R.id.violinA_button);
         mViolinBButton = (Button) findViewById(R.id.violinB_button);
@@ -114,6 +114,7 @@ public class ViolinActivity extends AppCompatActivity implements View.OnClickLis
             myToast.show();
         }
     }
+
 
     @Override
     protected void onPause()

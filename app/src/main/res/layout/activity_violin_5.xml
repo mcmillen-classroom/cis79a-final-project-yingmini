@@ -11,17 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/violin5"
-        android:alpha="0.7"/>
+        android:alpha="0.7"
+        android:layout_gravity="center"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
+        android:gravity="top"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/tail_piece_text_view"
-            android:layout_width="260dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tail_piece_text_view"
             android:textColor="@color/colorText"

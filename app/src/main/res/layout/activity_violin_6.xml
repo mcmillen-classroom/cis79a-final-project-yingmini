@@ -17,14 +17,15 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="bottom">
 
         <TextView
             android:id="@+id/chinrest_text_view"
-            android:layout_width="260dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/chinrest_text_view"
-            android:textColor="@color/colorText"/>
+            android:textColor="@color/colorText"
+            android:textSize="24sp" />
 
     </LinearLayout>
 </FrameLayout>

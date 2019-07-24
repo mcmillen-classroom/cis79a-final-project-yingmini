@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         violins = MediaPlayer.create(MainActivity.this, R.raw.violin_3);
-        //violins.start();
+        violins.start();
 
         mInApp = (Button) findViewById(R.id.app_in_button);
 

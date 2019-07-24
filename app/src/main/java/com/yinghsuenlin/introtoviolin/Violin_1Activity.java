@@ -24,7 +24,7 @@ public class Violin_1Activity extends AppCompatActivity
         setContentView(R.layout.activity_violin_1);
 
         violins = MediaPlayer.create(Violin_1Activity.this, R.raw.violin_4);
-        violins.start();
+        //violins.start();
     }
 
     @Override

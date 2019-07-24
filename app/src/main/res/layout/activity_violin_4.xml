@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/violin4"
-        android:alpha="0.4"/>
+        android:alpha="0.4"
+        android:layout_gravity="center"/>
 
     <LinearLayout
         android:layout_height="match_parent"
@@ -24,7 +25,8 @@
             android:layout_width="260dp"
             android:layout_height="wrap_content"
             android:text="@string/bridge_text_view"
-            android:textColor="@color/colorText"/>
+            android:textColor="@color/colorText"
+            android:textSize="24sp"/>
 
     </LinearLayout>
 </FrameLayout>
